@@ -19,9 +19,9 @@
  *
  */
 
-var argscheck = require('cordova/argscheck'),
-	utils = require('cordova/utils'),
-	exec = require('cordova/exec'),
+var argscheck = cordova.require('cordova/argscheck'),
+	utils = cordova.require('cordova/utils'),
+	exec = cordova.require('cordova/exec'),
 	PositionError = require('./PositionError'),
 	Position = require('./Position');
 
